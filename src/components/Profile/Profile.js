@@ -16,7 +16,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => (
   </div>
 );
 
-Profile.PropTypes = {
+Profile.propTypes = {
   avatar: PropTypes.string,
   username: PropTypes.string,
   tag: PropTypes.string,
